@@ -20,5 +20,5 @@ def load_fuel_data():
         print(f"Warning: Could not load fuel data. Error: {e}")
         return pd.DataFrame() # Return empty dataframe if file is missing
 
-# Load the data once when server boots up
+# Load the data when server boots up
 FUEL_DF = load_fuel_data()
